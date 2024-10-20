@@ -645,33 +645,9 @@ nav .txtnav:last-child{
   height: 5vh;
 }
 
-@media (max-width: 1400px){
-		
-#pag2 {
-    width: 90vw;
-    height: 555vh;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #D9D0C1;
-    display: flex;
-	flex-wrap:wrap;
-	flex-direction: column;
-	align-items: center;
-	background-image: url("../img/fondopag2.png");
-	background-size: cover;
-	background-position:top;
-	background-repeat: repeat-x;
-}
-#hd1{
-	width: 40%;
-	height: 10vh;
-	flex: 0 0 auto;
-	background-image:url("../img/hd1.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-#hd2{
+@media (max-width: 1300px){
+	
+	#hd2{
 	width: 20%;
 	height: 10vh;
 	flex: 1 1 auto;
@@ -680,177 +656,43 @@ nav .txtnav:last-child{
 	background-size: cover;
 	background-position: center center;
 }
-#hd3{
-	width: 40%;
-	height: 10vh;
-	flex: 0 0 auto;
-	background-image:url("../img/hd3.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-#contminasd{
-	width: 100%;
-	height: 85vh;
-	display:flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: flex-start
-}
-#pag2 main {
-    width: 100%;
-	height: 85vh;
-    display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	
-}
-
-#izqmain {
-    flex:3;
-	padding-left: 29px;
-	padding-right: 29px;
-	padding-top: 25px;
-	flex-direction: column;
-	background-image: url("../img/imgmainizq.png");
-	background-position: bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-#dermain {
-    flex: 2;
-	background-image:url("../img/fotderex.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;	
-}
-#dermain:hover{
-	background-image: url("../video/imgx.gif")
-}
-
 .textpar{
     font-family: "Afacad Flux", sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     text-align: justify;
 }
-
-#pag2 aside {
-    width: 100%;
-	height: 20vh;
+	#pag2 {
+    width: 90vw;
+    height: 530vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D9D0C1;
     display: flex;
-	flex-direction: row;
-    align-items: center;
-	justify-content: center;
-}
-#titaside{
-	width: 100%;
-	flex: 5;
-	padding-top: 15px;
-	padding-left: 29px;
-}
-.titlsaside{
-	font-family: "Afacad Flux", sans-serif;
-    text-align: center;
-	text-decoration: none;
-	align-items:flex-start;
-	font-size: 80px;
-	color: #8D2929;
-}
-#almb1{ 
-	width: 100%;
-	display: flex;
-	flex-direction: column;	
-	flex: 1;
-	padding-left:10px; 
-	background-image: url("../video/alm1.gif");
-	background-size:contain;
-	background-repeat: no-repeat;
-	background-position: center;	
-}
-#almb2{
-	width: 100%;
-	display: flex;
-	flex-direction: column;	
-	flex: 1;
-	padding-left:10px; 
-	background-image: url("../video/alm2.gif");
-	background-size:contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-#almb3{
-	width: 100%;
-	display: flex;
-	flex-direction: column;	
-	flex: 1;
-	padding-left:10px; 
-	background-image: url("../video/alm3.gif");
-	background-size:contain;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-#sec1 {
-    display: flex;
-	width: 100%;
-	min-height: 250vh;
+	flex-wrap:nowrap;
 	flex-direction: column;
-	background-color: #0D0D0D;
-	background-image: url("../img/fondohistoria.png");
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: top;
-	flex-wrap: wrap;
-	opacity: 0;
-	transition: opacity 1.5s ease-in-out;
-	position:relative;
+	align-items: center;
+	background-image: url("../img/fondopag2.png");
+	background-size: cover;
+	background-position:top;
+	background-repeat: repeat-x;
 }
-#sec1.visible {
-	opacity:1; 
-}
-
-#historia1prt{
+	#historia1prt{
 	width: 100%;
 	height: 50vh;
-	padding-top: 250px;
+	padding-top: 150px;
 	background-image: url("../img/fondo1section.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 		
 }
-#titprt1{
+	#titprt1{
 	font-family: "Afacad Flux", sans-serif;
     text-align: center;
 	text-decoration: none;
 	align-items: center;
-	font-size: 80px;
+	font-size: 90px;
 	color: #E8DBDB;
-}
-.links{
-	display: flex;
-	flex-direction: column;
-	text-decoration: none;
-	color: #CB8283;
-	font-size: large;
-}
-.subsec11{
-	display: flex;
-	flex-direction: column;
-	font-family: "Afacad Flux", sans-serif;
-    text-align: left;
-	text-decoration: none;
-	font-size: 35px;
-	color: #EDE6E6;
-}
-.txtsec11{
-	display: flex;
-	flex-direction: column;
-	font-family: "Afacad Flux", sans-serif;
-    text-align: left;
-	text-decoration: none;
-	font-size: 18px;
-	color: #EBDBDC;
 }
 .subsec1{
 	display: flex;
@@ -867,7 +709,406 @@ nav .txtnav:last-child{
 	font-family: "Afacad Flux", sans-serif;
     text-align: right;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 15px;
+	color: #EBDBDC;
+}
+.subsec11{
+	display: flex;
+	flex-direction: column;
+	font-family: "Afacad Flux", sans-serif;
+    text-align: left;
+	text-decoration: none;
+	font-size: 35px;
+	color: #EDE6E6;
+}
+.txtsec11{
+	display: flex;
+	flex-direction: column;
+	font-family: "Afacad Flux", sans-serif;
+    text-align: left;
+	text-decoration: none;
+	font-size: 15px;
+	color: #EBDBDC;
+}
+	
+	
+	#sec2 {
+	width: 82%;
+	height: 90vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+.elmntssec2{
+	flex:1;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+}
+.titlssec2{
+    font-family: "Afacad Flux", sans-serif;
+    font-style: bold;
+	font-size: 20px;
+	text-decoration: none;
+    text-align: center;
+    color: #8D2929;
+}
+.textparsec2{
+    font-family: "Afacad Flux", sans-serif;
+	font-size: 15px;
+    color: black;
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;       
+}
+#song1{
+	flex: 4;
+	width: 100%;
+	padding-top: 20px;
+	background-image: url("../img/song1.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#song1:hover{
+	background-image: url("../video/song1.gif");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;	
+}
+#song2{
+	flex: 4;
+	width: 100%;
+	padding-top: 20px;
+	background-image:url("../img/song2.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#song2:hover{
+	background-image:url("../video/song2.gif");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+	
+#song3{
+	flex: 4;
+	width: 100%;
+	padding-top: 20px;
+	background-image:url("../img/song3.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#song3:hover{
+	background-image:url("../video/song3.gif");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}	
+#sec3 {
+    display: flex;
+	flex-direction: row;
+	width: 80%;
+	height: 80vh;
+	flex-wrap: nowrap;
+}
+#prt1sec3{
+	display: flex;
+	flex-direction:column;
+	width: 50%;
+	align-items: center;
+	padding-bottom: 20px;
+}
+#titsec3{ 
+	flex:0.5;
+	width: 100%;
+	padding-top: 30px; 
+}
+	#titulosec3{
+	font-family: "Afacad Flux", sans-serif;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+	color: #8D2929;
+}
+#imgsec3{
+	display: flex;
+	flex-direction: row;
+	flex: 2;
+	width: 100%;
+}
+#textsec3{
+	flex: 1;
+	width: 40%;
+	padding-left: 10px;
+	padding-top: 80px;
+	
+}	
+.finsec3{
+	font-family: "Afacad Flux", sans-serif;
+    text-decoration: none;
+    font-size: 23px;
+    text-align: center;
+	color:#26160D;
+}
+	
+}
+@media (max-width: 530px){
+	#pag2 {
+    width: 100%;
+    height: 1105vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D9D0C1;
+    display: flex;
+	flex-wrap:nowrap;
+	flex-direction: column;
+	align-items: center;
+	background-image:url("../img/cel.png");
+	background-size: cover;
+	background-position:center;
+	background-repeat: repeat-x;
+}
+#pag2 header {
+	display: flex;
+	width: 100%;
+	height: 8vh;
+	flex-wrap: nowrap;	
+}	
+
+#hd1{
+	width: 50%;
+	height: 8vh;
+	background-image:url("../img/hd1.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+#hd2{
+	display: none;
+/*	width: 20%;
+	height: 10vh;
+	flex: 1 1 auto;
+	background-image: url("../img/hd2.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;*/
+}
+
+#hd3{
+	width: 50%;
+	height: 8vh;
+	background-image:url("../img/hd3.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: left;
+}
+	#pag2 nav {
+    background-color: #D9D0C1;
+	width: 100%;
+	height: 2vh;
+	display: flex;
+	flex: 0 1 auto;
+	position: sticky;
+    top: 0;
+	align-items: center;
+}
+    #contminasd{
+	width: 100%;
+	height: 300vh;
+	display:flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+	justify-content: center;
+}
+
+#pag2 main {
+    width: 100%;
+	height: 200vh;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+#izqmain {
+    flex:1;
+	padding-left: 29px;
+	padding-right: 29px;
+	padding-top: 80px;
+	flex-direction: column;
+	background-image: url("../img/imgmainizq.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#dermain {
+    flex: 1;
+	background-image:url("../img/fotderex.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#dermain:hover{
+	background-image: url("../video/imgx.gif")
+}
+.titls{
+    font-family: "Afacad Flux", sans-serif;
+	font-style: bold;
+    text-align: left;
+    color: #8D2929;
+}
+.resaltados{
+	font-family: "Afacad Flux", sans-serif;
+	color: #8D2929;
+	text-align: center;
+}
+.textpar{
+    font-family: "Afacad Flux", sans-serif;
+    font-size: large;
+    text-align: justify;
+}
+
+#pag2 aside {
+    width: 100%;
+	height: 100vh;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+    align-items: center;
+	justify-content: center;
+	background-image: url("../img/fondoaside.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#titaside{
+	width: 100%;
+	height: 20vh;
+	padding-top: 15px;
+	padding-right: 28px;
+	padding-left: 28px;
+}
+#almb1{ 
+	width: 100%;
+	flex: 2;
+	padding-left:28px;
+	padding-right: 28px;
+	background-image: url("../video/alm1.gif");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;	
+}
+#almb2{
+	width: 100%;
+	flex: 2;
+	padding-left:28px;
+	padding-right: 28px; 
+	background-image: url("../video/alm2.gif");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#almb3{
+	width: 100%;
+	flex: 2;
+	padding-left:28px;
+	padding-right: 28px; 
+	background-image: url("../video/alm3.gif");
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#sec1 {
+    display: flex;
+	width: 100%;
+	height: 450vh;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #0D0D0D;
+	background-image:url("../img/espin.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	flex-wrap: wrap;
+	opacity: 0;
+	transition: opacity 1.5s ease-in-out;
+}
+#sec1.visible {
+	opacity:1; 
+}
+
+#historia1prt{
+	width: 100%;
+	height: 50vh;
+	padding-top: 150px;
+	padding-left: 70px;
+	padding-right: 70px;
+	background-image:url("../img/cel2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+		
+}
+#titprt1{
+	font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+	text-decoration: none;
+	align-items: center;
+	font-size: 70px;
+	color: #E8DBDB;
+}
+.links{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	color: #CB8283;
+	font-size: large;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+.subsec11{
+	display: flex;
+	flex-direction: column;
+	font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	color: #EDE6E6;
+}
+.txtsec11{
+	display: flex;
+	flex-direction: column;
+	font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	color: #EBDBDC;
+}
+.subsec1{
+	display: flex;
+	flex-direction: column;
+	font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	color: #EDE6E6;
+}
+.txtsec1{
+	display: flex;
+	flex-direction: column;
+	font-family: "Afacad Flux", sans-serif;
+    text-align: center;
+	text-decoration: none;
+	font-size: 17px;
 	color: #EBDBDC;
 }
 
@@ -877,46 +1118,291 @@ nav .txtnav:last-child{
 	flex:1;
 	
 }
-
-#vacio2{
-	flex: 0.5
+#historia2part{
+	width: 100%;
+	height: 200vh;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	background-image:url("../img/cel3.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 0;
+	padding-left: 38px;
+	padding-right: 38px;
 }
+#vacio2{
+	display: none;
+}
+#etp1{
+	width: 90%;
+	display:flex;
+	flex-direction: column;
+	flex: 1;
+	height: 100vh;
+	/*padding-left:280px;*/
+	padding-right: 10px;
+	padding-bottom: 25px;
+}
+#etpabajo1{
+	width: 90%;
+	display: flex;
+	flex:2;
+	background-image:url("../img/etp1.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#etp2{
+	width: 90%;
+	display:flex;
+	flex-direction: column;
+	flex: 1;
+	height: 100vh;
+	padding-left:10px;
+	/*padding-right: 280px;*/
+	padding-bottom: 15px;
+}
+#etpabajo2{
+	width: 90%;
+	display:flex;
+	flex:2;
+	background-image:url("../img/etp2.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#vacio3{
+	display: none;
+}
+#historia3part{
+	width: 100%;
+	height: 200vh;
+	background-image:url("../img/cel4.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	padding-left: 38px;
+	padding-right: 38px;
+	
+}
+#vacio4{
+	display:none;
+}
+#etp3{
+	width: 90%;
+	display:flex;
+	flex-direction: column;
+	flex: 1;
+	height: 100vh;
+	/*padding-left:280px;*/
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+#etpabajo3{
+	width: 90%;
+	flex:2;
+	background-image:url("../img/etp3.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+#etp4{
+	width: 90%;
+	display:flex;
+	flex-direction: column;
+	flex: 1;
+	height: 100vh;
+	padding-left:10px;
+	/*padding-right: 280px;*/
+	padding-bottom: 15px;
+}
+#etpabajo4{
+	width: 90%;
+	display: flex;
+	flex:2;
+	background-image:url("../img/etp4.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat
+}
+#vacio5{
+	display: none;
+}
+#sec2 {
+	width: 100%;
+	height: 240vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.elmntssec2{
+	flex:80vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.conttxtsec2{
+	flex: 2;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.abajsec2{
+	flex: 1;
+	width: 100%;
+}
+.titlssec2{
+    font-family: "Afacad Flux", sans-serif;
+    font-style: bold;
+	text-decoration: none;
+    text-align: center;
+    color: #8D2929;
+}
+.textparsec2{
+    font-family: "Afacad Flux", sans-serif;
+	font-size: 20px;
+    color: black;
+    text-align: center; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    text-decoration: none;       
+}
+.links2{
+	text-decoration: none;
+	color: #8D2929;
+	font-size: large;
+}
+#song1{
+	flex: 2;
+	width: 100%;
+	padding-top: 20px;
+	background-image: url("../img/song1.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#txtsng1{
+	flex: 1;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 36px;
+	padding-right: 36px;	
+}
+#abajoson1{
+	flex: 0,2;
+	width: 100%;
+}
+#song2{
+	flex: 2;
+	width: 100%;
+	padding-top: 20px;
+	background-image:url("../img/song2.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#song2:hover{
+	background-image:url("../video/song2.gif");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#txtsng2{
+	flex: 1;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 36px;
+	padding-right: 36px;	
+}
+#abajoson2{
+	flex: none;
+	width: 100%;
+}
+#song3{
+	flex: 2;
+	width: 100%;
+	padding-top: 20px;
+	background-image:url("../img/song3.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#song3:hover{
+	background-image:url("../video/song3.gif");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+#txtsng3{
+	flex: 1;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 36px;
+	padding-right: 36px;	
+}
+#abajoson3{
+	flex: none;
+	width: 100%;
+}	
 #sec3 {
     display: flex;
 	flex-direction: column;
-	width: 70%;
-	height: 90vh;
+	width: 100%;
+	height: 100vh;
 	flex-wrap: nowrap;
 }
 #prt1sec3{
 	display: flex;
-	flex-direction: column;
-	flex:2;
+	flex-direction:column;
 	width: 100%;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 20px;
 }
 #titsec3{ 
 	flex:0.5;
-	width: 100%;	
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding-top: 30px; 
 }
-#titulosec3{
+	#titulosec3{
 	font-family: "Afacad Flux", sans-serif;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
 	color: #8D2929;
 }
-
+#imgsec3{
+	display: flex;
+	flex-direction: row;
+	flex: 2;
+	width: 80%;
+}
 #textsec3{
 	flex: 1;
 	width: 100%;
-	padding-top: 10px;
-}
+	padding-left: 38px;
+	padding-right: 38px;
+	padding-bottom: 80px;
+}	
 .finsec3{
 	font-family: "Afacad Flux", sans-serif;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
-	color:black;
+	color:#26160D;
 }	
 }
-

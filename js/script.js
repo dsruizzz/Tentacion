@@ -4,15 +4,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let observer = new IntersectionObserver(function(entries) {
         entries.forEach(entry => {
-            console.log(entry); 
             if (entry.isIntersecting) {
-                console.log("Sec1 está visible");
+                // Agregar clase visible cuando #sec1 está dentro del viewport
                 sec1.classList.add("visible");
             } else {
-                sec1.classList.remove("visible");  
+                // Remover clase cuando sale del viewport
+                sec1.classList.remove("visible");
             }
         });
-    }, { threshold: 0.2 });  
+    }, {
+        threshold: 0.2  // Ajusta este valor según el tamaño de la pantalla
+    });
 
     observer.observe(sec1);
 });
